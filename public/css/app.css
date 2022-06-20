@@ -1,0 +1,480 @@
+body {
+  font-family: sans-serif;
+  background-color: #F0FFFF;
+  padding-top: 3rem;
+}
+
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+
+
+}
+
+.error {
+  color: red;
+}
+
+.search-bar {
+  margin: 0 0 0 20rem;
+  width: 20rem;
+}
+
+
+
+/*user profile*/
+#member-detail {
+  padding-left: 40rem;
+}
+
+/*managerpage*/
+#myInput {
+  width: 20%;
+  margin: -2rem 2rem 2rem 55rem;
+}
+
+#mysearch {
+  width: 20%;
+  margin: -2rem 2rem 2rem 55rem;
+}
+
+
+/* index.html*/
+.lead {
+  opacity: 0.5;
+}
+
+#ucr-logo {
+  width: 30px;
+  margin: 0 10px;
+}
+
+#cart {
+  width: 40px;
+  margin-right: 20px;
+
+}
+
+#btn-cart {
+  margin: 0 0 0 75rem;
+}
+
+#reg-button {
+  border: none;
+  color: white;
+}
+
+
+.cover_image {
+  width: 100%;
+  height: 30rem;
+}
+
+
+
+#book-section {
+  margin: 7rem 0rem;
+
+
+}
+
+.icon {
+  padding: 5% 0 5% 45%;
+  color: #ef8172;
+
+}
+
+.icon:hover {
+  color: #ff4368;
+}
+
+#logo-section {
+  background-color: #f4f0ec;
+  padding-left: 8rem;
+
+}
+
+.computer-logo {
+  width: 18rem;
+  padding: 2rem 2rem;
+}
+
+@media(max-width: 575px) {
+  .logo-image {
+    margin: 0 1rem;
+
+
+  }
+}
+
+#base-p {
+  display: flex;
+  justify-content: center;
+}
+
+#discount-a {
+  display: flex;
+  justify-content: center;
+}
+
+#total-p {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#book-brand {
+  margin: 2rem 5rem;
+}
+
+
+.description {
+  margin-top: 10rem;
+}
+
+.description p {
+  text-align: center;
+}
+
+#computer-image {
+  width: 100%;
+  height: max-content;
+}
+
+/*registration.html*/
+
+#pswd_info {
+  position: absolute;
+  bottom: -75px;
+  right: 55px;
+  width: 250px;
+  margin-right: 10rem;
+  background: #fefefe;
+  font-size: .875em;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #ccc;
+  border: 1px solid #ddd;
+}
+
+#pswd_info h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: 2px;
+}
+
+#pswd_info::before {
+  content: "\25B2";
+  position: absolute;
+  top: -12px;
+  left: 45%;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  text-shadow: none;
+  display: block;
+}
+
+.invalid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #ec3f41;
+}
+
+.valid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #3a7d34;
+}
+
+#pswd_info {
+  display: none;
+}
+
+
+/*login.html page*/
+.header {
+  background-color: white;
+  margin-top: 10rem;
+  width: 80%;
+}
+
+@media (min-width: 900px) {
+  .header {
+    width: 40em;
+
+  }
+}
+
+.header h3 {
+  padding: 2rem 4rem;
+  font-size: medium;
+  color: #ef8172;
+
+}
+
+.password {
+  padding: 1.5rem 2rem;
+
+}
+
+/*registration form*/
+
+
+#registration-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+}
+
+#login-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+  margin-top: 50px;
+}
+
+/*product.html*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.product-logo {
+  width: 40%;
+  margin-left: 4rem;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+
+}
+
+
+.show {
+  display: block;
+}
+
+.logo-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #a7a4a4;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+.row {
+  margin: 0 -5px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*loginpage.html*/
+.login-symbol {
+  display: flex;
+
+
+}
+
+@media (max-width: 950px) {}
+
+.login-symbol figcaption {
+  margin-right: 1rem;
+}
+
+
+
+.header-login {
+  padding-left: 30rem;
+}
+
+@media (max-width: 1050px) {
+  .header-login {
+    font-size: smaller;
+    display: inline;
+  }
+
+  .flex-container {
+    display: inline;
+
+  }
+}
+
+.figure {
+  padding: 4rem 8rem;
+
+}
+
+
+#login-page a {
+  text-decoration: none;
+}
+
+.figure-img {
+  width: 8rem;
+  color: #ef8172;
+}
+
+
+
+/*about.html*/
+#about-ucr {
+  padding: 0 10rem;
+}
+
+#about-ucr p {
+  text-align: left;
+}
+
+#about-ucr h5 {
+  font-weight: bold;
+}
+
+
+/*masterentry.html*/
+#masterheading {
+  padding: 3rem 0;
+}
+
+.master-submit {
+  margin: 2rem 2rem 0 0;
+}
+
+.master-cancel {
+  text-decoration: none;
+  color: white;
+}
+
+#master-cancel {
+  margin-top: 2rem;
+}
+
+/*contact.html*/
+.contact-heading {
+  padding-top: 5rem;
+  font-family: cursive;
+}
+
+.contact-heading h3 {
+  color: #ef8172;
+}
+
+.contact-heading span {
+  color: #ef8172;
+}
+
+.contact-input {
+  padding: 3rem 5rem;
+}
+
+.name-input {
+  margin: 2rem 0;
+}
+
+.number-input {
+  margin: 2rem 0;
+}
+
+textarea {
+  margin: 2rem 0 2rem 1rem;
+}
+
+/*footer */
+#footer {
+  text-align: center;
+  margin: 5rem 0 -50rem 0;
+  background-color: #f4f0ec;
+}
+
+.logo {
+  margin: 0 1%;
+}
