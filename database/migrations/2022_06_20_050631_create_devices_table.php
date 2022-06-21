@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->id();
-            $table->integer("user_id");
+            $table->integer("user_id")->unsignedBigInteger();
         	$table->string("brand");
         	$table->string("model");
         	$table->string("operating_system");
@@ -23,9 +23,9 @@ return new class extends Migration
         	$table->string("hdmiport_available");
         	$table->integer("number_of_usb_port");
         	$table->decimal('hourly_cost', $precision = 4, $scale = 2);
-        	$table->decimal('display_size', $precision = 3, $scale = 2);
+        	$table->string('display_size');
         	$table->string("availability");
-        	// $table->foreign("user_id")->references("id")->on("Users")->onDelete("cascade");
+        	$table->foreign("user_id")->references("id")->on("Users")->onDelete("cascade");
             $table->timestamps();
         });
     }

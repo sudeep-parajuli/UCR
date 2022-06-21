@@ -22,7 +22,7 @@ return new class extends Migration
         	$table->integer("quantity");
         	$table->float("amount_paid");
         	$table->string("status")->default("Active")->nullable();
-        	// $table->foreign("user_id")->references("id")->on("Users");
+        	$table->foreign("user_id")->references("id")->on("Users");
             $table->timestamps();
         });
     }
